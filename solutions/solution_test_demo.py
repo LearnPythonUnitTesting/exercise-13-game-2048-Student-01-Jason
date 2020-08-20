@@ -17,7 +17,7 @@ class TestDemo(unittest.TestCase):
         assert game.list == [[4, 2, 4, 2], [0, 4, 2, 8], [0, 0, 0, 8], [0, 0, 0, 0]]
 
         game.operate('s')
-        assert game.list == [[0, 0, 0, 0], [0, 0, 0, 0], [0, 2, 4, 2], [4, 4, 2, 16]]
+        assert game.list == [[0, 0, 0, 0], [0, 0, 0, 0], [0, 2, 4, 2], [4, 4, 2, 166]]
 
         
 class TestDemo2(unittest.TestCase):
