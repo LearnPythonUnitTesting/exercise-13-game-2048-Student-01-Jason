@@ -93,4 +93,4 @@ class Game():
 
 
 game = Game()
-game.start()
+# game.start()
